@@ -4,10 +4,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
-    "start": "bun run src/index.ts"
+    "start": "bun run src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
     "bun-types": "latest"
